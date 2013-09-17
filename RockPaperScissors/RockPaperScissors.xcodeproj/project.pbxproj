@@ -18,6 +18,7 @@
 		9343F59E1728A08D009085AA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9343F59D1728A08D009085AA /* Default-568h@2x.png */; };
 		9343F5A11728A08D009085AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9343F5A01728A08D009085AA /* ViewController.m */; };
 		9343F5A41728A08D009085AA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9343F5A21728A08D009085AA /* ViewController.xib */; };
+		A150B96C17E91AA700DE628C /* ComputerHand.m in Sources */ = {isa = PBXBuildFile; fileRef = A150B96B17E91AA700DE628C /* ComputerHand.m */; };
 		A19BBA8F17E8DFCB00597128 /* Judge.m in Sources */ = {isa = PBXBuildFile; fileRef = A19BBA8E17E8DFCB00597128 /* Judge.m */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,8 @@
 		9343F59F1728A08D009085AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9343F5A01728A08D009085AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9343F5A31728A08D009085AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A150B96A17E91AA700DE628C /* ComputerHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputerHand.h; sourceTree = "<group>"; };
+		A150B96B17E91AA700DE628C /* ComputerHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputerHand.m; sourceTree = "<group>"; };
 		A19BBA8D17E8DFCB00597128 /* Judge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Judge.h; sourceTree = "<group>"; };
 		A19BBA8E17E8DFCB00597128 /* Judge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Judge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +95,8 @@
 				A19BBA8D17E8DFCB00597128 /* Judge.h */,
 				A19BBA8E17E8DFCB00597128 /* Judge.m */,
 				9343F5A01728A08D009085AA /* ViewController.m */,
+				A150B96A17E91AA700DE628C /* ComputerHand.h */,
+				A150B96B17E91AA700DE628C /* ComputerHand.m */,
 				9343F5A21728A08D009085AA /* ViewController.xib */,
 				9343F58E1728A08D009085AA /* Supporting Files */,
 			);
@@ -182,6 +187,7 @@
 				9343F5981728A08D009085AA /* AppDelegate.m in Sources */,
 				9343F5A11728A08D009085AA /* ViewController.m in Sources */,
 				A19BBA8F17E8DFCB00597128 /* Judge.m in Sources */,
+				A150B96C17E91AA700DE628C /* ComputerHand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

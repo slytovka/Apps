@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Judge.h"
+#import "ComputerHand.h"
 
 @interface ViewController ()
 {
@@ -36,9 +37,11 @@
     
     if (computerWon) {
         computerHandLabel.backgroundColor = [UIColor greenColor];
+        playerHandLabel.backgroundColor = [UIColor redColor];
     }
     else{
         playerHandLabel.backgroundColor = [UIColor greenColor];
+        computerHandLabel.backgroundColor = [UIColor redColor];
     }
 }
 
@@ -74,7 +77,9 @@
     if (count == 0) {
         [timer invalidate];
         count = 4;
-        computerHandLabel.text = [choices objectAtIndex:arc4random() % 3];
+        //computerHandLabel.text = [choices objectAtIndex:arc4random() % 3];
+        ComputerHand *generator=[[ComputerHand alloc]init];
+        computerHandLabel.text=[generator randomHand];
     }
 }
 
