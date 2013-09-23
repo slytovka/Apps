@@ -53,9 +53,8 @@
     [self.view addSubview:textField];
     
     UISlider *slider = [[UISlider alloc] initWithFrame:CGRectMake(10, 300, 300, 20)];
-    slider.maximumValue=1.0;
-    slider.minimumValue=0.0;
-    slider.value=0.5;
+    //[_slider addTarget:self action:<#(SEL)#> forControlEvents:<#(UIControlEvents)#>]
+    
     [self.view addSubview:slider];
     
     
@@ -97,7 +96,7 @@
     [self.view addSubview:ButtonColorize];
 }
 
-    -(IBAction) sliderAction:(id) sender{
+    -(void)sliderAction:(id) sender{
         _textField.text=[NSString stringWithFormat:@"Slider value is %f", _slider.value];
     }
 

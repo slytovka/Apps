@@ -8,13 +8,13 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "YouEyeViewFunHouse/ViewController.h"
-         timestampString = "401224983.242468"
+         timestampString = "401290192.907315"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "12"
          endingLineNumber = "12"
-         landmarkName = "@interface ViewController"
-         landmarkType = "2">
+         landmarkName = "changeColor"
+         landmarkType = "19">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

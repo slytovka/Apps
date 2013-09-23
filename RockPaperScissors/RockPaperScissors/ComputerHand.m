@@ -18,7 +18,7 @@
     if (x==1) {
         return @"scissors";
     }
-    if (x==2) {
+    else {
         return @"paper";
     }
 }

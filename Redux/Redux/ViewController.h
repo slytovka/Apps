@@ -12,6 +12,6 @@
 @property(nonatomic,retain) UISlider *slider;
 @property(nonatomic,retain) UILabel *textField;
 
--(IBAction) sliderAction:(id) sender;
+-(void) sliderAction:(id) sender;
 
 @end

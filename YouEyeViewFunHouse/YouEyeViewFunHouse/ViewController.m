@@ -15,6 +15,7 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -22,6 +23,10 @@
     _label.text=@"On";
 }
 
+
+- (IBAction)changingColor:(id)sender {
+    _changeColor.backgroundColor=[UIColor greenColor];
+}
 
 - (IBAction)addingValues:(id)sender {
     int n1=_numberOne.text.intValue;

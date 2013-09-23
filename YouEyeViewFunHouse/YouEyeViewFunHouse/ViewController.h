@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *changeColor;
 
 @property (weak, nonatomic) IBOutlet UILabel *label;
 @property (weak, nonatomic) IBOutlet UILabel *sliderText;
@@ -23,6 +24,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *button3;
 
 
+- (IBAction)changingColor:(id)sender;
 
 - (IBAction)addingValues:(id)sender;
 - (IBAction)onPress:(id)sender;
