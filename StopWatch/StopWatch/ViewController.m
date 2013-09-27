@@ -122,7 +122,7 @@
     NumberCountdown=0;
     [timer invalidate];
     _sliderValue.value=0;
-    _lap.hidden=YES;
+    _lap.hidden=NO;
     
 }
 
